@@ -1,18 +1,18 @@
-#Push
+# Push
 
 Git add, commit, and push all in one command
 
-##Installation
+## Installation
 
 Move 'push.sh' to your '/usr/bin' and then 'chmod +x'
 
-##Usage
+## Usage
 
 ```sh
 push dir "msg"
 ```
 
-##Example
+## Example
 ```sh
 push . "init build"
 ```
