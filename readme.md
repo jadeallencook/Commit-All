@@ -6,12 +6,6 @@ Git add, commit, and push all in one command
 
 Move 'push.sh' to your '/usr/local/bin'
 
-## Usage
-
-```sh
-push.sh dir "msg"
-```
-
 ## Example
 ```sh
 push.sh . "init build"
