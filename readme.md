@@ -4,9 +4,24 @@ Git add, commit, and push all in one command
 
 ## Installation
 
-Move 'push.sh' to your '/usr/local/bin'
+Direct your terminal to the "Push" directory and give the installer permissions.
 
-## Example
 ```sh
-push.sh . "init build"
+  chmod +x install.sh
+```
+
+And then run the installer.
+
+```sh
+  ./install.sh
+```
+
+That will make a copy of the push.sh file and move it to your /usr/local/bin.
+
+## How To Use
+
+Here's an example of how to push all changes to GitHub.
+
+```sh
+push.sh . "my message"
 ```
