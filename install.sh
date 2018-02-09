@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp ./push.sh /usr/local/bin
+install ./push.sh /usr/local/bin
